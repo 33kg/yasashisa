@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+    <title>Camera | a free jQuery slideshow by Pixedelic</title> 
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //		Styles
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    <link rel='stylesheet' id='camera-css'  href='slider/css/camera.css' type='text/css' media='all' /> 
+    <style>
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		a {
+			color: #09f;
+		}
+		a:hover {
+			text-decoration: none;
+		}
+		#back_to_camera {
+			clear: both;
+			display: block;
+			height: 80px;
+			line-height: 40px;
+			padding: 20px;
+		}
+		.fluid_container {
+			margin: 0 auto;
+			width: 800px;
+		}
+	</style>
+
+    <!--///////////////////////////////////////////////////////////////////////////////////////////////////
+    //
+    //		Scripts
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////////////////--> 
+    
+    <script type='text/javascript' src='slider/scripts/jquery.min.js'></script>
+    <script type='text/javascript' src='slider/scripts/jquery.mobile.customized.min.js'></script>
+    <script type='text/javascript' src='slider/scripts/jquery.easing.1.3.js'></script> 
+    <script type='text/javascript' src='slider/scripts/camera.min.js'></script> 
+    
+    <script>
+		jQuery(function(){
+			
+			jQuery('#camera_wrap_1').camera({
+				thumbnails: true
+			});
+
+		});
+	</script>
+ 
+</head>
+<body>
+    
+	<div class="fluid_container">
+        <div class="camera_wrap camera_azure_skin" id="camera_wrap_1">
+            <div data-thumb="slider/images/slides/thumbs/01.jpg" data-src="slider/images/slides/01.jpg"></div>
+            <div data-thumb="slider/images/slides/thumbs/02.jpg" data-src="slider/images/slides/02.jpg"></div>
+            <div data-thumb="slider/images/slides/thumbs/03.jpg" data-src="slider/images/slides/03.jpg"></div>
+            <div data-thumb="slider/images/slides/thumbs/04.jpg" data-src="slider/images/slides/04.jpg"></div>
+            <div data-thumb="slider/images/slides/thumbs/05.jpg" data-src="slider/images/slides/05.jpg"></div>
+            <div data-thumb="slider/images/slides/thumbs/06.jpg" data-src="slider/images/slides/06.jpg"></div>
+        </div>
+    </div>
+    
+    <div style="clear:both; display:block; height:100px"></div>
+</body> 
+</html>

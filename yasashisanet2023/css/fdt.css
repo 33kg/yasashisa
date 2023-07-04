@@ -1,0 +1,608 @@
+@charset "UTF-8";
+/*
+-------- Flexible Design Template --------
+*/
+/*
+-------- リセット ------------------------------------------------------------------------
+*/
+#main > br{
+	display: none;
+	}
+/*
+#visual,
+.breadcrumbs-setting{
+ 	display:none;
+	}
+*/
+
+#main table{
+	margin: 0;
+	}
+#main table tr th,
+#main table tr td{
+	width: auto;
+	}
+table caption{
+	margin: 0;
+	}
+
+
+/*
+-------- 基本表示 ------------------------------------------------------------------------
+*/
+
+section.fdb_block .sp{
+	display: none;
+	}
+
+section.fdb_block{
+	margin: 0!important;
+	min-height: 30vh;
+	}
+
+
+section.fdb_block img{
+	max-width: 100%;
+	}
+section.fdb_block > div{
+	padding: 40px;
+	}
+
+section.fdb_block h1,
+section.fdb_block h2,
+section.fdb_block h3,
+section.fdb_block h4,
+section.fdb_block h5,
+section.fdb_block h6{
+	font-family: 'Noto Serif JP', serif;
+	font-weight: 500;
+	margin-bottom: 20px;
+	color: #3e3a39;
+	}
+section.fdb_block div,
+section.fdb_block p,
+section.fdb_block li{
+	font-family: 'Noto Serif JP', serif;
+	font-weight: 400;
+	color: #3e3a39;
+	}
+
+section.fdb_block h1{ font-size: 30px; }
+section.fdb_block h2{ font-size: 22px; }
+section.fdb_block h3{ font-size: 20px; }
+section.fdb_block h4{ font-size: 18px; }
+section.fdb_block h5{ font-size: 16px; }
+section.fdb_block h6{ font-size: 14px; }
+
+
+/*
+-------- モジュール別表示【1320px幅まとめ】 ------------------------------------------------------------------------
+*/
+section.fdb_block div.column1{
+	padding: 0;
+	}
+
+section.fdb_block div.column1_limited,
+section.fdb_block div.column1_center,
+section.fdb_block div.column2_text_img,
+section.fdb_block div.column2_img_text,
+section.fdb_block div.panel{
+	margin: 0 auto;
+	width: auto;
+	max-width: 1320px;
+	position: relative;
+	}
+
+section.fdb_block .fdt_ul_text,
+section.fdb_block .fdt_ul_img{
+	width: calc(100% - 20px);
+	max-width: 1320px;
+	margin: 0 auto;
+	}
+section.fdb_block div.tex{
+	width: calc(100% - 20px);
+	margin-left: auto;
+	margin-right: auto;
+	}
+section.fdb_block div.tex p{
+	font-size: 16px;
+	margin-bottom: 20px;
+	}
+section.fdb_block .fdt_ul_text{
+	display: block;
+	margin: 20px auto;
+	}
+section.fdb_block .fdt_ul_text > li{
+	margin-left: 17px;
+	}
+section.fdb_block .fdt_ul_text > li:before{
+	content: '・';
+	margin-left: -21px;
+	margin-right: 4px;
+	}
+section.fdb_block .fdt_ul_text > li > strong{
+	margin-bottom: 5px;
+	display: inline-block;
+	}
+section.fdb_block .fdt_ul_text > li ul{
+	margin-bottom: 20px;
+	}
+
+section.fdb_block .fdt_ul_img{
+	display: block;
+    max-width: 1000px;
+	}
+section.fdb_block .fdt_ul_img li{
+	text-align: center;
+	}
+section.fdb_block .fdt_ul_img li svg{
+
+	}
+section.fdb_block .fdt_ul_caution{
+	display: block;
+	margin: 20px 0;
+	}
+section.fdb_block .fdt_ul_caution li{
+	font-size: 12px;
+	margin-left: 17px;
+	}
+section.fdb_block .fdt_ul_caution li:before{
+	content: '※';
+	margin-left: -17px;
+	margin-right: 5px;
+	}
+section.fdb_block table.fdt_tables{
+	display: inline-block;
+	margin: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+	}
+section.fdb_block table.fdt_tables tr th,
+section.fdb_block table.fdt_tables tr td{
+	width: auto;
+	padding: 5px;
+    border: 1px solid #ccc;
+	text-align: left;
+	}
+
+/*
+
+select_block : ブロック区切り
+column1 : 1カラム表示(全幅余白ナシ)
+column1_limited : 1カラム表示(最大1020px幅)
+column1_center : 1カラム表示(センタリング)
+column2_text_img : 2カラム表示(左本文、右画像)
+column2_img_text : 2カラム表示(左画像、右本文)
+panel : パネル表示
+slideshow : スライドショー
+
+/*
+-------- モジュール別表示【1カラム表示(全幅余白ナシ)】 ------------------------------------------------------------------------
+
+*/
+section.fdb_block div.column1_center{
+	text-align: center;
+	}
+
+/*
+
+-------- モジュール別表示【2カラム表示(左本文、右画像)】 -----------------------------------------------------------------------
+
+*/
+section.fdb_block div.column2_text_img,
+section.fdb_block div.column2_img_text{
+	display: flex;
+	flex-wrap: wrap;
+	gap:20px;
+	padding: 0;
+	}
+section.fdb_block .column_1st,
+section.fdb_block .column_2nd{
+	width: calc((100% - 20px) / 2);
+	margin: 0 auto;
+	}
+
+
+
+section.fdb_block div.column2_text_img{
+	flex-direction: row-reverse;
+	}
+section.fdb_block div.column2_img_text{
+
+	}
+/*
+
+-------- モジュール別表示【 パネル表示 】 -----------------------------------------------------------------------
+
+*/
+
+section.fdb_block div.panel{
+
+	}
+section.fdb_block div.panel ul.fdt_ul_img{
+	display: flex;
+	flex-wrap: wrap;
+	gap:10px;
+	}
+section.fdb_block div.panel ul.fdt_ul_img li{
+	width: calc((100% - 20px) / 3);
+	}
+/*
+
+-------- モジュール別表示【 スライドショー 】 -----------------------------------------------------------------------
+
+*/
+section.fdb_block > div.slideshow{
+	padding: 0;
+	}
+section.fdb_block > div.slideshow .slick-prev,
+section.fdb_block > div.slideshow .slick-next{
+    top: calc(50% - 70px);
+	}
+
+section.fdb_block > div.slideshow .slick-prev{
+	left: -105px;
+	}
+section.fdb_block > div.slideshow .slick-next{
+	right: -45px;
+	}
+section.fdb_block > div.slideshow .slick-prev:before,
+section.fdb_block > div.slideshow .slick-next:before{
+
+	}
+section.fdb_block > div.slideshow .slick-prev:before{
+	content: url('/wp/wp-content/uploads/2022/08/arrow_prev.png');
+	}
+section.fdb_block > div.slideshow .slick-next:before{
+	content: url('/wp/wp-content/uploads/2022/08/arrow_next.png');
+	}
+
+/*
+	
+	-------- モジュール別表示【 購入ボタン 】 -----------------------------------------------------------------------
+	
+*/
+
+section.fdb_block .wrap_buy_btn{
+	font-size:22px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:flex-end;
+	margin-bottom: 10px;
+	}
+section.fdb_block .wrap_buy_btn p.volume{
+	width: 50px;
+	font-size:16px;
+	}
+section.fdb_block .wrap_buy_btn p.price{
+	width: 200px;
+	font-size:26px;
+	}
+section.fdb_block .wrap_buy_btn p.volume,
+section.fdb_block .wrap_buy_btn p.price{
+	line-height: 50px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+	}
+section.fdb_block .wrap_buy_btn form{
+	width: 100%;
+	max-width: calc(100% - 250px);
+	text-align: right;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+	font-size:16px;
+	line-height: 50px;
+	}
+section.fdb_block .wrap_buy_btn select{
+	width: 50px;
+	font-size:16px;
+	height: 55px;
+	line-height: 55px;
+	vertical-align: top;
+	}
+section.fdb_block .wrap_buy_btn a,
+section.fdb_block .wrap_buy_btn input[type="submit"]{
+	font-family: 'Noto Serif JP', serif;
+	font-weight: 500;
+	font-size:24px;
+	text-align: center;
+	width: 100%;
+	padding: 10px 5px;
+	border: none;
+	background: #3e3a39;
+	color: #fff;
+	margin-bottom: 10px;
+	max-width: calc(100% - 150px);
+	}
+section.fdb_block .wrap_buy_btn a{
+	max-width: none;
+	}
+section.fdb_block .wrap_buy_btn a:hover,
+section.fdb_block .wrap_buy_btn input[type="submit"]:hover{
+	background: #ff6600;
+	background: #eee;
+	cursor:pointer;
+	text-decoration: none;
+	color: #3e3a39;
+	}
+section.fdb_block .wrap_shipping{
+	margin-top: -20px;
+	margin-bottom: 40px;
+	text-align: right;
+	}
+section.fdb_block .wrap_shipping p{
+	font-size: 12px;
+	}
+
+section.fdb_block .column_2nd .wrap_buy_btn{
+
+	}
+section.fdb_block .column_2nd .wrap_buy_btn form{
+	max-width: none;
+	}
+section.fdb_block .column_2nd .wrap_buy_btn p.volume{
+	padding-right: 5px;
+	}
+section.fdb_block .column_2nd .wrap_buy_btn p.volume,
+section.fdb_block .column_2nd .wrap_buy_btn p.price{
+	width:auto;
+	border-bottom:none;
+	line-height: 30px;
+	}
+
+section.fdb_block .buy_button_2col .column_2nd .wrap_buy_btn{
+
+	width: 48%;
+	display: inline-block;
+	overflow: auto;
+	}
+section.fdb_block .buy_button_2col .column_2nd .wrap_buy_btn  p.volume{
+	line-height: 20px;
+	margin-bottom: 0;
+	}
+section.fdb_block .buy_button_2col .column_2nd .wrap_buy_btn  p.price{
+	line-height: 30px;
+	margin-bottom: 0;
+	font-size: 20px;
+	}
+section.fdb_block .buy_button_2col .column_2nd .wrap_buy_btn form{
+	text-align: left;
+	}
+section.fdb_block .buy_button_2col .column_2nd .wrap_buy_btn form select{
+	width: 50px;
+	height: 35px;
+	line-height: 15px;
+	margin-top: 6px;
+	}
+section.fdb_block .buy_button_2col .column_2nd .wrap_buy_btn form input[type="submit"]{
+	width: 100%;
+	max-width: none;
+	font-size: 20px;
+	}
+
+
+/*
+		
+		-------- モジュール別表示【 商品画像 】 -----------------------------------------------------------------------
+		
+*/
+
+section.fdb_block ul.fdt_ul_img_items{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-bottom: 40px;
+	}
+section.fdb_block ul.fdt_ul_img_items li{
+
+	}
+section.fdb_block ul.fdt_ul_img_items li img{
+	border: 1px solid #ccc;
+	}
+
+section.fdb_block ul.fdt_ul_img_items li:nth-child(1){
+	width: 100%;
+	}
+section.fdb_block ul.fdt_ul_img_items li:nth-child(n+2){
+	width: calc(50% - 5px);
+	}
+
+
+
+/*
+			
+			-------- モジュール別表示【 ビジュアルエディタ 】 -----------------------------------------------------------------------
+			
+	*/
+
+section.fdb_block div.wrap_visual{
+
+	}
+section.fdb_block div.wrap_visual p{
+
+	}
+section.fdb_block div.wrap_visual .itemStoryArea,
+section.fdb_block div.wrap_visual .storyLeft02,
+section.fdb_block div.wrap_visual .storyRight02,
+section.fdb_block div.wrap_visual .itemDetailWidth,
+section.fdb_block div.wrap_visual #itemAboutDetail{
+	width: 100%
+	}
+/*
+
+/*
+		
+		-------- モジュール別表示【 アイコン表示 】 -----------------------------------------------------------------------
+		
+*/
+
+section.fdb_block ul.fdt_ul_icons{
+
+	margin-bottom: 10px;
+	}
+section.fdb_block .fdt_ul_icons{
+
+	}
+section.fdb_block .fdt_ul_icons a{
+	background: #bb9f97;
+	width: auto;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height: 25px;
+	padding: 0 5px;
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	border: 1px solid #bb9f97;
+	}
+section.fdb_block .fdt_ul_icons a:hover{
+	border: 1px solid #bb9f97;
+	color: #bb9f97;
+	Background:#fff;
+	text-decoration: none;
+	}
+/*
+		
+		-------- 【 関連商品表示 】 -----------------------------------------------------------------------
+		
+*/
+
+div.wrap_related_item{
+	border: 1px solid #666;
+	padding: 30px;
+	}
+div.wrap_related_item h2{
+	font-family: 'Noto Serif JP', serif;
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 20px;
+	color: #3e3a39;
+	}
+div.wrap_related_item ul.inner_related_item{
+	display: flex;
+	flex-wrap: wrap;
+	gap:10px;
+	}
+div.wrap_related_item ul.inner_related_item li{
+	width: calc((100% - 30px) / 4)
+	}
+div.wrap_related_item ul.inner_related_item li img{
+	width: 100%;
+	}
+
+/*
+			
+			-------- 【 関連商品表示 - 5つのやさしさ 】 -----------------------------------------------------------------------
+			
+	*/
+	
+	div.wrap_related_item.wrap_related_yasashisa{
+		border: none;
+		padding: 0;
+		}
+	div.wrap_related_item.wrap_related_yasashisa p{
+		font-family: 'Noto Serif JP', serif;
+		text-align: center;
+		color: #333;
+		font-weight: bold;
+		}
+
+	div.wrap_related_item.wrap_related_yasashisa li{
+		background: #fff;
+		}
+
+
+/*
+			
+			-------- モジュール別表示【 youtube表示 】 -----------------------------------------------------------------------
+			
+	*/
+section.fdb_block .wrap_video{
+	text-align: center;
+	max-width: 600px;
+	margin: 0 auto 20px auto;
+	position: relative;
+	}
+section.fdb_block .wrap_video img{
+	width: 100%;
+	}
+section.fdb_block .wrap_video::after{
+	content: "\f167";
+	font-family: "Font Awesome 5 Brands";
+	font-size: 60px;
+	line-height: 60px;
+	top: calc(50% - 30px);
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: block;
+	position: absolute;
+	margin: auto;
+	padding-right: 10px;
+	color: red;
+	text-align: center;
+	pointer-events: none;
+	}
+
+/*
+			
+			-------- 旧コンテンツからの移植調整 -----------------------------------------------------------------------
+			
+	*/
+
+section.fdb_block #itemAboutDetail table th{
+	background: #3e3a39;
+	color: #fff;
+	}
+
+/*
+
+-------- SmartPhone -----------------------------------------------------------------------
+
+*/
+@media (max-width: 768px) {
+
+section.fdb_block .sp{
+	display: block;
+	}
+section.fdb_block .pc{
+	display: none;
+	}
+
+section.fdb_block h1{ font-size: 22px; }
+section.fdb_block h2{ font-size: 20px; }
+section.fdb_block h3{ font-size: 18px; }
+section.fdb_block h4{ font-size: 15px; }
+section.fdb_block h5{ font-size: 13px; }
+section.fdb_block h6{ font-size: 11px; }
+
+section.fdb_block{
+	overflow: hidden;
+	}
+section.fdb_block div.tex{
+	width: 100%;
+	}
+
+section.fdb_block div.column1_limited,
+section.fdb_block div.column2_text_img,
+section.fdb_block div.column2_img_text,
+section.fdb_block div.panel{
+	display: block;
+	width: calc(100% - 20px);
+	padding: 40px 0;
+	}
+section.fdb_block .column_1st,
+section.fdb_block .column_2nd{
+	width: auto;
+	}
+
+section.fdb_block div.panel ul.fdt_ul_img li{
+	width: calc((100% - 10px) / 2);
+	}
+
+}
+
+
+

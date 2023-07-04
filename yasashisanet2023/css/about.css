@@ -1,0 +1,62 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*base.cssへ移行する記述*/
+
+.pankuzu{
+	font-size: 11px;
+	margin-bottom: 10px;
+	}
+
+
+
+#primary .contentsBox {
+	background: #fff url(../images/line_cross.gif) left top repeat-x;
+}
+
+#primary .contentsBoxVertical {
+	background: url(../images/line_vertical713.png) left top repeat-y;
+}
+
+#primary .contentsBoxBttom {
+	padding-bottom: 0;
+	background: url(../images/line_cross.gif) left bottom repeat-x;
+}
+
+
+/*base.css移行ここまで*/
+
+.policyPadding{
+	padding: 10px 35px;
+	}
+.safetyPolicy{
+	float: right;
+	width: 62px;
+	}
+.policyArea{
+	float: left;
+	width: 545px;
+	padding-right: 25px;
+	background: url(../images/policy-line.jpg) right repeat-y;
+	}
+.policyTitle{
+	margin: 0 0 15px 0;
+	}
+.policyPhoto{
+	float: left;
+	width: 205px;
+	}
+.policyText{
+	float: left;
+	font-size:14px;
+	width: 300px;
+	margin: 0 0 0 25px;
+	}
+.serviceArea p{
+	float: left;
+	margin: 6px;
+	}
+.serviceArea{
+	margin: 20px 0 10px 0;
+	}
+.pt30{ padding-top: 30px ;}

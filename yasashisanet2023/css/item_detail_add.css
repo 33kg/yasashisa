@@ -1,0 +1,459 @@
+@charset "UTF-8";
+/*商品詳細ページ用css*/
+
+/*------------------------------------------------------------------------------------*/
+
+/*粉末シリーズ*/
+
+
+/*Dフラクション*/
+
+.aboutDrinking_dfraction{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/dfraction/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+
+/*モズクフコイダン*/
+
+.aboutDrinking_mozuku_fucoidan{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/mozuku_fucoidan/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+	
+/*メカブフコイダン*/
+
+.aboutDrinking_mekabu_fucoidan{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/mekabu_fucoidan/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+/*オリゴ糖*/
+
+.aboutDrinking_origo{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/origo/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+/*ガジュツ*/
+
+.aboutDrinking_gajyutsu{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/gajyutsu/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+/*カルシウム*/
+
+.aboutDrinking_calcium{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/calcium/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+/*キトサン*/
+
+.aboutDrinking_chitosan{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/chitosan/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+	
+/*キャッツクロー*/
+
+.aboutDrinking_catsclaw{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/catsclaw/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+/*グルコサミン*/
+
+.aboutDrinking_glucosamine{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/glucosamine/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+/*クロレラ*/
+
+.aboutDrinking_chlorella{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/chlorella/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+/*コラーゲン*/
+
+.aboutDrinking_collagen{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/collagen/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+
+/*サイリウム*/
+
+.aboutDrinking_sairium{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/sairium/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+/*スピルリナ*/
+
+.aboutDrinking_spirulina{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/spirulina/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+/*プロポリス*/
+
+.aboutDrinking_propolis{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/propolis/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+			
+/*マカ*/
+
+.aboutDrinking_maca{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/maca/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+/*マカ顆粒*/
+
+.aboutDrinking_maca-k{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/maca-k/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+/*メシマコブ*/
+
+.aboutDrinking_meshima{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/meshima/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+
+/*メシマコブ（細胞壁破砕）*/
+
+.aboutDrinking_meshima-s{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/meshima-s/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+/*核酸DNA*/
+
+.aboutDrinking_dna{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/dna/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+/*寒天*/
+
+.aboutDrinking_kanten{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/kanten/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+/*桑の葉*/
+
+.aboutDrinking_kuwa{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/kuwa/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+
+	
+/*無臭にんにく*/
+
+.aboutDrinking_garlic{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/garlic/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+				
+		
+
+/*大麦若葉*/
+
+#itemDetailPage #itemDetailContent #itemDetailImage_oomugi {
+	width: 678px;
+	height: 354px;
+	margin: 15px auto 15px auto;
+	position: relative;
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/oomugi/item_detail_image01.jpg) left top no-repeat;
+}
+
+#itemDetailPage #itemDetailContent #itemDetailImage_oomugi p {
+	position: absolute;
+	top: 88px;
+	left: 15px;
+}
+
+
+.aboutDrinking_oomugi{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/oomugi/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+
+
+
+
+/*ケール*/
+
+#itemDetailPage #itemDetailContent #itemDetailImage_kale {
+	width: 678px;
+	height: 354px;
+	margin: 15px auto 15px auto;
+	position: relative;
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/kale/item_detail_image01.jpg) left top no-repeat;
+}
+
+#itemDetailPage #itemDetailContent #itemDetailImage_kale p {
+	position: absolute;
+	top: 88px;
+	left: 15px;
+}
+
+
+.aboutDrinking_kale{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/kale/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+
+
+/*桑の葉*/
+
+#itemDetailPage #itemDetailContent #itemDetailImage_kuwa {
+	width: 678px;
+	height: 354px;
+	margin: 15px auto 15px auto;
+	position: relative;
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/kuwa/item_detail_image01.jpg) left top no-repeat;
+}
+
+#itemDetailPage #itemDetailContent #itemDetailImage_kuwa p {
+	position: absolute;
+	top: 88px;
+	left: 15px;
+}
+
+
+.aboutDrinking_kuwa{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/kuwa/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+
+
+/*田七人参*/
+
+#itemDetailPage #itemDetailContent #itemDetailImage_denshichi {
+	width: 678px;
+	height: 354px;
+	margin: 15px auto 15px auto;
+	position: relative;
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/denshichi/item_detail_image01.jpg) left top no-repeat;
+}
+
+#itemDetailPage #itemDetailContent #itemDetailImage_denshichi p {
+	position: absolute;
+	top: 88px;
+	left: 15px;
+}
+
+
+.aboutDrinking_denshichi{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/denshichi/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+	
+
+/*金時生姜*/
+
+#itemDetailPage #itemDetailContent #itemDetailImage_kintokishoga {
+	width: 678px;
+	height: 354px;
+	margin: 15px auto 15px auto;
+	position: relative;
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/kintokishoga/item_detail_image01.jpg) left top no-repeat;
+}
+
+#itemDetailPage #itemDetailContent #itemDetailImage_kintokishoga p {
+	position: absolute;
+	top: 88px;
+	left: 15px;
+}
+
+
+.aboutDrinking_denshichi{
+	background: url(https://yasashisa.experimentspace.jp/item_image/powder/kintokishoga/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+
+/*------------------------------------------------------------------------------------*/
+
+/*濃いっ！シリーズ*/
+
+
+
+/*田七人参*/
+
+#itemDetailPage #itemDetailContent #itemDetailImage_denshichi-tab {
+	width: 678px;
+	height: 354px;
+	margin: 15px auto 15px auto;
+	position: relative;
+	background: url(https://yasashisa.experimentspace.jp/item_image/tablet/denshichi/item_detail_image01.jpg) left top no-repeat;
+}
+
+#itemDetailPage #itemDetailContent #itemDetailImage_denshichi-tab p {
+	position: absolute;
+	top: 88px;
+	left: 15px;
+}
+
+
+
+/*------------------------------------------------------------------------------------*/
+
+/*一般健康食品シリーズ*/
+
+/*ぽかぽか紅茶*/
+
+.aboutDrinking_pokatea{
+	background: url(https://yasashisa.experimentspace.jp/item_image/health/poka-tea/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+
+/*ぽかぽか柚子*/
+
+.aboutDrinking_pokayuzu{
+	background: url(https://yasashisa.experimentspace.jp/item_image/health/poka-yuzu/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+/*カーティーセル*/
+
+.aboutDrinking_ctc{
+	background: url(https://yasashisa.experimentspace.jp/item_image/health/ctc/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+
+/*三通茶*/
+
+.aboutDrinking_santsu{
+	background: url(https://yasashisa.experimentspace.jp/item_image/health/santsu/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+
+/*杜仲茶*/
+
+.aboutDrinking_tochu{
+	background: url(https://yasashisa.experimentspace.jp/item_image/health/tochu/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+
+/*------------------------------------------------------------------------------------*/
+
+/*自然食品シリーズ*/
+
+/*ブルーベリー（冷凍品）*/
+
+.aboutDrinking_blueberry{
+	background: url(https://yasashisa.experimentspace.jp/item_image/shizen/blueberry/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+	
+	
+	
+	
+	
+/*TOPページしゃぼんやおすすめ商品用CSS*/	
+	
+	
+#primary #recommendBox2 {
+	background: #fff url(../images/line_cross.gif) left top repeat-x;
+}
+
+#primary #recommendBox2Vertical {
+	background: url(../images/line_vertical713.png) left top repeat-y;
+}
+
+#primary #recommendBox2Bttom {
+	padding: 17px;
+	padding-bottom: 0;
+	background: url(../images/line_cross.gif) left bottom repeat-x;
+}
+
+#primary #recommendBox2 h2 {
+	margin-bottom: 20px;
+	height: 28px;
+	background: url(../images/h3_recommend.gif) left top no-repeat;
+}
+
+#primary #recommendBox2 .recommendItem{
+	float: left;
+	width: 213px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+#primary #recommendBox2 .recommendItem01,
+#primary #recommendBox2 .recommendItem04 {
+	padding-left: 0;
+}
+
+#primary #recommendBox2 .recommendItem .recommendItemTitle {
+	padding: 8px 0 4px 0;
+}
+
+#primary #recommendBox2 .recommendItem .recommendItemTitle a{
+	font-weight: bold;
+	color: #a0321d;
+}
+	
+	
+	
+/*TOPページKNFおすすめ商品用CSS*/	
+	
+	
+#primary #recommendBox3 {
+	background: #fff url(../images/line_cross.gif) left top repeat-x;
+}
+
+#primary #recommendBox3Vertical {
+	background: url(../images/line_vertical713.png) left top repeat-y;
+}
+
+#primary #recommendBox3Bttom {
+	padding: 17px;
+	padding-bottom: 0;
+	background: url(../images/line_cross.gif) left bottom repeat-x;
+}
+
+#primary #recommendBox3 h2 {
+	margin-bottom: 20px;
+	height: 28px;
+	background: url(../images/h4_recommend.gif) left top no-repeat;
+}
+
+#primary #recommendBox3 .recommendItem{
+	float: left;
+	width: 213px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+}
+
+#primary #recommendBox3 .recommendItem01,
+#primary #recommendBox3 .recommendItem04 {
+	padding-left: 0;
+}
+
+#primary #recommendBox3 .recommendItem .recommendItemTitle {
+	padding: 8px 0 4px 0;
+}
+
+#primary #recommendBox3 .recommendItem .recommendItemTitle a{
+	font-weight: bold;
+	color: #a0321d;
+}
+	

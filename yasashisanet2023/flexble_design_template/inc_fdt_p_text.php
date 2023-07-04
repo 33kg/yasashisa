@@ -1,0 +1,1 @@
+<?php if( get_sub_field('fdt_p_text')): ?><div class="tex"><?php the_sub_field('fdt_p_text');?></div><?php endif; ?>

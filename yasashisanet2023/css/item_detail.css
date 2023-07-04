@@ -1,0 +1,518 @@
+@charset "UTF-8";
+/*商品詳細ページ用css*/
+
+#itemDetailPage #itemDetailContent #itemDetailImage01 {
+	width: 678px;
+	height: 354px;
+	margin: 15px auto 15px auto;
+	position: relative;
+	background: url(https://yasashisa.experimentspace.jp/item_image/kintokishoga/item_detail_image01.jpg) left top no-repeat;
+}
+
+
+/* 商品詳細ページ --------------------------------------------------*/
+
+#itemDetailPage .itemBuy {
+	background: url(../images/line_cross.gif) left bottom repeat-x;
+	padding: 10px 15px 20px;
+}
+
+#itemDetailPage .itemBuy table {
+	width: 100%;
+}
+
+#itemDetailPage .itemBuy table td{
+	text-align: center;
+}
+
+#itemDetailPage .itemBuy table .itemCol01 {
+	letter-spacing: -0.1em;
+	width: 100px;
+}
+
+#itemDetailPage .itemBuy table .itemCol02 {
+	width: 140px;
+	padding-right: 10px;
+	letter-spacing: -0.1em;
+	text-align: right;
+}
+
+#itemDetailPage .itemBuy table .itemRow01 .itemCol01,
+#itemDetailPage .itemBuy table .itemRow01 .itemCol02,
+#itemDetailPage .itemBuy table .itemRow01 .itemCol04 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1;
+	vertical-align: middle;
+}
+
+.itemCol01,
+.itemCol02{
+	padding: 10px 0 0 0;
+	}
+.itemCol03 input:hover{
+		filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	background: #fff;
+	}
+	
+.itemCol05 input:hover{
+		filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	background: #fff;
+	}
+#itemDetailPage .itemBuy table .itemRow01 .itemCol01 span,
+#itemDetailPage .itemBuy table .itemRow01 .itemCol02 span,
+#itemDetailPage .itemBuy table .itemRow01 .itemCol04 span {
+	font-size: 40px;
+}
+#itemDetailPage .itemBuy table .itemRow01 .itemCol01 span.small,
+#itemDetailPage .itemBuy table .itemRow01 .itemCol02 span.small,
+#itemDetailPage .itemBuy table .itemRow01 .itemCol04 span.small {
+	font-size: 13px;
+	font-weight: normal;
+	letter-spacing: 0px;
+}
+
+#itemDetailPage .itemBuy table .itemRow01 .itemCol03,
+#itemDetailPage .itemBuy table .itemRow01 .itemCol05 {
+	text-align: left;
+}
+
+.deleteBr br {
+    display: none !important;
+}
+.deleteBr p br {
+    display: none !important;
+}
+
+.itemCol03,.itemCol05{
+	padding: 20px 0 0 0;
+	}
+.itemCol03 input{
+	margin-top: 5px;
+}
+
+
+#itemDetailPage .itemBuy table .itemRow01 .itemCol04 {
+	padding: 0 5px;
+	text-align: center;
+	letter-spacing: -0.1em;
+	vertical-align: middle;
+	color: #df482d;
+}
+
+#itemDetailPage .itemBuy table .itemRow02 .itemCol01, 
+#itemDetailPage .itemBuy table .itemRow02 .itemCol02{
+	vertical-align: top;
+}
+
+#itemDetailPage .itemBuy table .itemRow02 .itemCol03,
+#itemDetailPage .itemBuy table .itemRow02 .itemCol04,
+#itemDetailPage .itemBuy table .itemRow02 .itemCol05 {
+	vertical-align: bottom;
+}
+
+#itemDetailPage p.itemMore {
+	padding: 5px 10px 35px 10px;
+}
+
+#itemDetailPage p.itemMore span {
+	padding: 8px 0;
+}
+
+#itemDetailPage p.itemMore .itemMore01 {
+	padding-left: 30px;
+	background: url(../images/item_more01.gif) left 50% no-repeat;
+	font-size: 12px;
+}
+
+#itemDetailPage p.itemMore .itemMore02 {
+	padding-left: 35px;
+	background: url(../images/item_more02.gif) left 50% no-repeat;
+	font-size: 12px;
+}
+
+#itemDetailPage #itemDetailContent .line713Bottom {
+
+}
+
+#itemDetailPage #itemDetailContent .itemDetailSection {
+	width: 709px;
+	margin: 0 auto;
+	padding: 1px;
+	background: #fff;
+}
+
+
+
+#itemDetailPage #itemDetailContent #itemDetailImage01 p {
+	position: absolute;
+	top: 88px;
+	left: 15px;
+}
+
+.itemUsefulness{
+	padding: 20px 0;
+	}
+.itemUsefulnessBt{
+	padding: 20px 0;
+	background: url(../images/border01.jpg) 0 top repeat-x;
+}
+.borderBt{
+	background: url(../images/border01.jpg) 0 top repeat-x;
+}
+.borderBb{
+	background: url(../images/border01.jpg) 0 bottom repeat-x;
+}
+
+.itemUsefulnessLeft{
+	float: left;
+	width: 255px;
+	}
+.itemUsefulnessRight{
+	float: left;
+	margin: 25px 0 0 5px;
+	width: 420px;
+	}
+.itemUsefulnessRightMargin{
+	float: left;
+	margin: 25px 0 0 15px;
+	width: 420px;
+	}
+#itemDetailPage #itemDetailContent #itemUsefulness01 p {
+	position: absolute;
+	top: 95px;
+	left: 260px;
+}
+
+#itemDetailPage #itemDetailContent #itemUsefulness01-2 {
+	width: 674px;
+	height: 361px;
+	margin: 0 auto 25px auto;
+	position: relative;
+	background: url(../images/item_usefulness_image01-2.jpg) left top no-repeat;
+}
+
+#itemDetailPage #itemDetailContent #itemUsefulness02 {
+	background: url(../images/line_cross.gif) left top repeat-x;
+}
+
+#itemDetailPage #itemDetailContent #recommendUser {
+	padding: 25px 0;
+	text-align: center;
+	background: #fff;
+}
+
+.aboutDrinking{
+	background: url(https://yasashisa.experimentspace.jp/item_image/kintokishoga/about_drinking_bg.jpg) no-repeat 443px 50%;
+	padding: 20px 0 20px 0;
+	}
+.userVoiceArea{
+	padding: 20px 0;
+	}
+.userVoice{
+	width: 320px;
+	float: left;
+	margin: 10px 0 0  20px;
+	}
+
+.userVoiceImg{
+	float: left;
+	width: 120px;
+	}
+.userVoiceText{
+	float: right;
+	width: 180px;
+	line-height: 1.6;
+	}
+.userVoiceText h4{
+	font-weight: bold;
+	font-size: 14px;
+	margin-bottom: 5px;
+	}
+#itemDetailPage #voice {
+	padding: 0 15px 25px;
+	background: #fff url(../images/line_cross.gif) left bottom repeat-x;
+}
+
+#itemDetailPage #voice h2 {
+	height: 27px;
+	background: url(../images/h2_item_detail_voice.gif) left top no-repeat;
+}
+
+#itemDetailPage #voice ul li {
+	padding: 0.5em 0;
+	padding-left: 25px;
+	background: url(../images/ico_voice_list.gif) 5px 50% no-repeat;
+}
+
+#itemDetailPage #voice ul li + li {
+	border-top: 1px dotted #b8b8b8;
+}
+
+#itemDetailPage #voice ul li a {
+	color: #861f1d;
+	font-weight: bold;
+}
+ul.lcp_catlist{
+	margin: 0 auto;
+	width: 680px;
+	}
+ul.lcp_catlist li {
+	padding: 0.5em 0;
+	padding-left: 25px;
+	background: url(../images/ico_voice_list.gif) 5px 50% no-repeat;
+}
+
+ul.lcp_catlist li + li {
+	border-top: 1px dotted #b8b8b8;
+}
+
+ul.lcp_catlist li a {
+	color: #861f1d;
+	font-weight: bold;
+}
+
+
+.itemAbout {
+	padding: 25px 29px;
+}
+
+#itemAboutImages{
+	float: left;
+	width: 220px;
+	margin-right: 10px;
+}
+
+#itemAboutDetail {
+	float: left;
+	width: 420px;
+}
+
+#itemAboutDetail h2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #df482d;
+}
+
+#itemAboutDetail table {
+	border-collapse: collapse;
+}
+
+#itemAboutDetail table, 
+#itemAboutDetail table th,
+#itemAboutDetail table td {
+	border: 1px solid #888888;
+	text-align: left;
+}
+
+#itemAboutDetail table th {
+	width: 135px;
+	padding: 12px 0 12px 9px;
+	background: #e9a495;
+}
+
+#itemAboutDetail table td {
+	padding: 12px 12px 12px 9px;
+}
+
+#itemAboutIngredients {
+	padding-top: 18px;
+	clear: both;
+}
+
+#itemAboutIngredients table {
+	width: 100%;
+	margin-bottom: 25px;
+	border-collapse: collapse;
+}
+
+#itemAboutIngredients table, 
+#itemAboutIngredients table th,
+#itemAboutIngredients table td {
+	border: 1px solid #888888;
+	text-align: left;
+}
+
+#itemAboutIngredients table th,
+#itemAboutIngredients table td {
+	width: 16.6%;
+	padding: 14px 0 14px 8px;
+}
+
+#itemAboutIngredients table th {
+	background: #e9e08c;
+}
+
+#periodicPresent {
+	padding-bottom: 25px;
+}
+
+.itemBuy02 {
+	width: 100%;
+	padding: 15px 0 30px;
+}
+.itemDetailMoreLeft{
+	float: left;
+	width: 130px;
+	margin-left: 20px;
+	}
+.itemDetailMoreRight{
+	float: left;
+	width: 470px;
+	margin-left: 20px;
+	}
+.itemDetailMoreArea{
+	clear: both;
+	margin: 20px 0;
+	}
+	
+	
+#itemDetailPage .itemBuy02 {
+	background: url(../images/line_cross.gif) left bottom repeat-x;
+	padding: 10px 0 20px;
+}
+
+#itemDetailPage .itemBuy02 table {
+	width: 100%;
+}
+
+#itemDetailPage .itemBuy02 table td{
+	text-align: center;
+}
+
+#itemDetailPage .itemBuy02 table .itemCol01 {
+	letter-spacing: -0.1em;
+	width: 120px;
+}
+
+#itemDetailPage .itemBuy02 table .itemCol02 {
+	width: 90px;
+	padding-right: 10px;
+	letter-spacing: -0.1em;
+	text-align: middle;
+}
+
+#itemDetailPage .itemBuy02 table .itemRow01 .itemCol01,
+#itemDetailPage .itemBuy02 table .itemRow01 .itemCol02,
+#itemDetailPage .itemBuy02 table .itemRow01 .itemCol03 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1;
+	vertical-align: middle;
+}
+
+.itemBuy02 .itemCol01,
+.itemBuy02 .itemCol02{
+	padding: 10px 0 0 0;
+	}
+#itemDetailPage .itemBuy02 table td.itemCol05 {
+    text-align: center;
+}
+.itemBuy02 .itemCol04 input:hover{
+		filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+	background: #fff;
+	}
+
+#itemDetailPage .itemBuy02 table .itemRow01 .itemCol01 span,
+#itemDetailPage .itemBuy02 table .itemRow01 .itemCol02 span,
+#itemDetailPage .itemBuy02 table .itemRow01 .itemCol03 span {
+	font-size: 40px;
+}
+#itemDetailPage .itemBuy02 table .itemRow01 .itemCol01 span.small,
+#itemDetailPage .itemBuy02 table .itemRow01 .itemCol02 span.small,
+#itemDetailPage .itemBuy02 table .itemRow01 .itemCol04 span.small {
+	font-size: 13px;
+	font-weight: normal;
+	letter-spacing: 0px;
+}
+
+#itemDetailPage .itemBuy02 table .itemRow01 .itemCol03,
+#itemDetailPage .itemBuy02 table .itemRow01 .itemCol05 {
+	text-align: middle;
+}
+.itemBuy02 .itemCol03, .itemBuy02 .itemCol05{
+	padding: 10px 0 0 0;
+	}
+itemBuy02 .itemCol03 input{
+	margin-top: 5px;
+}
+
+#itemDetailPage .itemBuy02 table .itemRow01 .itemCol03 {
+	width: 140px;
+}
+#itemDetailPage .itemBuy02 table .itemRow01 .itemCol04 {
+	padding: 0 5px;
+	text-align: center;
+	letter-spacing: -0.1em;
+	vertical-align: middle;
+	padding: 10px 30px 0 0;
+	width: 100px;
+}
+
+#itemDetailPage .itemBuy02 table .itemRow02 .itemCol01, 
+#itemDetailPage .itemBuy02 table .itemRow02 .itemCol02{
+	vertical-align: top;
+}
+
+#itemDetailPage .itemBuy02 table .itemRow02 .itemCol03,
+#itemDetailPage .itemBuy02 table .itemRow02 .itemCol04,
+#itemDetailPage .itemBuy02 table .itemRow02 .itemCol05 {
+	vertical-align: bottom;
+}
+
+.itemDetailYoutube{
+	width: 675px;
+	margin: 0 auto;
+	}
+.itemDetailWidth{
+	width: 675px;
+	margin: 0 auto;
+	}
+.itemStoryArea{
+	width: 675px;
+	margin: 0 auto;
+	}
+.storyLeft01{
+	float: left;
+	width: 290px;
+	}
+.storyRight01{
+	float: right;
+	width: 353px;
+	}
+.storyLeft02{
+	float: left;
+	width: 510px;
+	}
+.storyRight02{
+	float: right;
+	width: 143px;
+	}
+.itemStaffLeft{
+	width: 186px;
+	float: left;
+	margin: 0 5px 0 10px 0;
+	}
+.itemStaffRight{
+	width: 460px;
+	float: right;
+	}
+.itemAttention{
+	padding: 20px;
+	border: 1px solid #e2d4d4;
+	background: #f9f2f2;
+	margin-bottom: 30px;
+	}
+.itemAttention h5{
+	text-align: center;
+	font-weight: bold;
+	margin: 5px 0;
+		}

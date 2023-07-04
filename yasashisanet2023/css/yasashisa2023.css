@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* 今日丿市2023版のCSS */
+
+/*
+	フォント
+*/
+html,
+section,
+div,p,li,a{
+	font-family: 'Noto Serif JP', serif;
+	font-weight: 400;
+	color: #3e3a39;
+	}
+html { font-size: 62.5%; }
+
+
+html{
+	margin: 0!important;
+	padding: 0;
+	}
+
+body{
+	background: #efecea;
+	}
+.wrap_inner{
+	width: 1000px;
+	margin: 0 auto;
+	position: relative;
+	}
+
+header#header{
+	position: relative;
+	left: 0;
+	right:0;
+	width: auto;
+	background: #fff;
+	height: auto;
+	}
+#header h1{
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top:auto;
+	left: 0;
+	width: 140px;
+	}
+#header h1 img{
+	width: 100%;
+	}
+
+#contents,
+#primary{
+	float: none;
+	}
+
+#primary{
+	width: auto;
+	max-width: 900px;
+	}
+
+
+header#header .wrap_inner{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	}
+
+ul#main_nav{
+	display: flex;
+	flex-wrap: wrap;
+	gap:10px;
+	height: 80px;
+	}
+ul#main_nav > li{
+	font-size: 1.4rem;
+	font-weight: bold;
+	line-height: 80px;
+	}
+ul#main_nav > li img{
+	width: 100%;
+	vertical-align: middle
+	}
+ul#main_nav li a{
+	color: #333;
+	}
+ul#main_nav > li > a:after{
+	content: "｜";
+	display: inline-block;
+	margin-left: 10px;
+	}
+ul#main_nav > li:nth-child(n+7){
+	margin-left: 10px;
+	width: 30px;
+	}
+ul#main_nav > li:nth-child(n+6) > a:after{
+	content: none;
+	}
+
+ul.sub_nav{
+	background: #fff;
+	padding: 10px;
+	}
+ul.sub_nav li{
+	font-size: 1.2rem;
+	font-weight: bold;
+	line-height: 30px;
+	} 
+
+
+.list_brand_logo{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+	}
+.list_brand_logo li{
+	width: 100px;
+	}
+.list_brand_logo li img{
+	max-width:100%; 
+	}
+
+
+footer{
+	background: #3e3a39;
+	margin-top: 80px;
+	}
+footer .wrap_inner{
+	padding: 40px 0;
+	display: flex;
+	gap:100px;
+	}
+
+footer ul.list_sub_footer{}
+footer ul.list_sub_footer li{
+	
+	}
+footer ul.list_sub_footer li a{
+	color: #fff;
+	}
+footer ul.list_sub_footer li p{
+	color: #fff;
+	display: inline-block;
+	vertical-align: middle;
+	}
+footer ul.list_sub_footer li img{
+	vertical-align: middle;
+	width: 80px;
+	display: inline-block;
+	margin-right: 10px;
+	}
+footer ul.list_sub_footer li h2{
+	color: #fff;
+	font-size: 1.8rem;
+	margin-bottom: 20px;
+	}
+
+footer ul.list_sub_footer.list_sns{
+	display: flex;
+	flex-wrap: wrap;
+	width: calc(100% / 3);
+	gap: 20px;
+	}
+footer ul.list_sub_footer.list_sns li:nth-child(1){
+	width: 100%;
+	height: 50px;
+	}

@@ -1,0 +1,170 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*base.cssへ移行する記述*/
+
+.pankuzu{
+	font-size: 11px;
+	margin-bottom: 10px;
+	}
+.pt20{ padding-top: 20px;}
+.pt30{ padding-top: 30px ;}
+
+/*base.css移行ここまで*/
+
+.syabonyaMiddle{
+	background: url(../images/syabonya-middle.jpg) repeat-y 0 0;
+	padding: 0 53px;
+	}
+.naviSyabonya li{
+	float: left;
+	margin-left: 3px;
+	}
+.aboutSoup{
+	padding: 30px;
+	background: #e7f7fe;
+	border: 1px solid #cae4ef;
+	margin: 30px 0 30px 0;
+	}
+.aboutSoup:after{
+	content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+	}
+.aboutSoupLeft{
+	float: left;
+	width: 245px;
+	}
+.aboutSoupRight{
+	float: right;
+	width: 500px;
+	}
+.aboutMakeLeft{
+	float: left;
+	width: 480px;
+	}
+.aboutMakeRight{
+	float: right;
+	width: 360px;
+	}
+.oilarea:after{
+	content: "";
+    clear: both;
+    height: 0;
+    display: block;
+    visibility: hidden;
+	}
+.oilLeft{
+	float: left;
+	width: 333px;
+}
+.oilRight{
+	float: right;
+	width: 480px;
+}
+
+.syabonyaKodawariLeft{
+	float: left;
+	width: 450px;
+	}
+.syabonyaKodawariRight{
+	float: right;
+	width: 375px;
+	}
+
+.syabonyaTop{
+	height: 123px;
+}
+.syabonyaKokoro{
+	padding: 20px;
+	margin-top: 30px;
+	background: #f9f8f0;
+	border: 1px solid #c9c4b6;
+	}
+.kokoroarea{
+	float: left;
+	width: 172px;
+	margin: 10px 14px 20px 14px;
+	}
+.makeLeft{
+	float: left;
+	width: 285px;
+	}
+.makeRight{
+	float: right;
+	width: 525px;
+	}
+.syabonyaShopLeft{
+	width: 410px;
+	float: left;
+	}
+.syabonyaShopRight{
+	width: 410px;
+	float: right;
+	}
+.collaboLeft{
+	width: 280px;
+	float: left;
+	}
+.collaboRight{
+	width: 530px;
+	float: right;
+	}
+.collaboSaleText{
+	padding: 10px;
+	background: #edf0cd;
+	border: 1px solid #e4e7c2;
+	color: #a62424;
+	font-weight: bold;
+	text-align: center;
+	margin: 20px 0;
+	}
+.borderSyabonya{
+	background: url(../images/border-syabonya.jpg) no-repeat 0 0;
+	height: 1px;
+	margin: 20px 0;
+	}
+.syabonyaVoice{
+	padding: 20px;
+	border: 3px solid #87d1f5;
+	margin: 30px 0;
+	}
+.syabonyaIvent{
+	padding: 20px;
+	border: 3px solid #87d1f5;
+	margin: 30px 0;
+	}
+	
+
+	
+	<style type="text/css">
+#iWrap{
+    margin:0 auto;
+    padding: 7px;
+    width: 400px;
+    border: 2px solid #333;
+}
+#iWrap h2{
+    margin:10px;
+    padding: 5px;
+    border: 2px solid #333;
+    background-color:#CCC;
+    cursor: pointer;
+}
+#iWrap h2:hover{
+    background-color:#FFF;
+}
+#iWrap div{
+    padding:5px;
+}
+#iWrap div ul{
+    margin:0 3px;
+    padding:0;
+}
+#iWrap div li{
+    line-height:1.2em;
+    list-style:none;
+}
+</style>

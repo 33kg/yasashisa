@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/*
+-------- Flexible Design Template（予約語リスト） --------
+section.fdb_block.
+top_line　…上部にラインを引く
+mb30　…周囲に30pxのマージン
+mb60　…周囲に60pxのマージン
+padding30　…周囲に30pxの余白
+padding60　…周囲に60pxの余白
+wrap_syabonya_page　…しゃぼんやのブロック
+main_vis_yasashisa　…5つのやさしさのメインビジュアル
+
+section.fdb_block .fdt_innner.
+btn2column　…購入ボタンを2つ並べる
+fdt_innner.panel_fullwidth　…全幅に拡げるパネル
+bnr_2column　…大きなバナーを二つならべる
+bal40_60　…40:60で画像を並べる　
+*/
+
+
+
+/*線を引く*/
+section.fdb_block.top_line{
+	border-top: 1px solid #ccc;
+	margin-top: 40px;
+	padding-top: 40px;
+	}
+
+/*Margin*/
+
+section.fdb_block.mb30{
+	margin-bottom:30px!important;
+	}
+section.fdb_block.mb60{
+	margin-bottom:60px!important;
+	}
+
+/*Padding*/
+
+section.fdb_block.padding30{
+	padding:30px;
+	}
+section.fdb_block.padding60{
+	padding:60px;
+	}
+/*40:60で画像を並べる*/
+	section.fdb_block .bal40_60 .column_1st{
+		width: calc((100% - 20px) * 0.4);
+		}
+	section.fdb_block .bal40_60 .column_2nd{
+		width: calc((100% - 20px) * 0.6);
+		}
+
+/*購入ボタンの横並べ*/
+	section.fdb_block .btn2column{
+		display: flex;
+		flex-wrap: wrap; /* 折返し指定 */
+		margin: 20px 0;
+		padding: 0;
+		gap: 10px;
+		}
+	section.fdb_block .btn2column .wrap_buy_btn{
+		margin:0;
+		padding: 0;
+		width: calc((100% - 10px)/2);
+		justify-content: normal;
+		}
+	section.fdb_block .btn2column .wrap_buy_btn p.price{
+		width: 100px;
+		font-size: 24px;
+		}
+	section.fdb_block .btn2column .wrap_buy_btn form{
+		max-width: calc(100% - 150px);
+		font-size: 14px;
+		}
+	section.fdb_block .btn2column .wrap_buy_btn a,
+	section.fdb_block .btn2column .wrap_buy_btn input[type="submit"]{
+		max-width: calc(100% - 100px);
+		font-size: 18px;
+		}
+	section.fdb_block .btn2column .wrap_buy_btn select{
+		height: 45px;
+		line-height: 45px;
+		width: 30px;
+		font-size: 14px;
+		}
+	section.fdb_block .btn2column .wrap_shipping{
+		width: 100%;
+		}
+
+/*5つのやさしさのメインビジュアル*/
+
+#wrap_5klindness{
+	background: #efece9;
+	}
+section.fdb_block .fdt_innner.main_vis_yasashisa{
+	position:relative;
+	justify-content:flex-start; 
+	margin-bottom: 40px;
+	}
+section.fdb_block .fdt_innner.main_vis_yasashisa .fdt_ul_img,
+section.fdb_block .fdt_innner.main_vis_yasashisa div.tex{
+		width: 100%;
+		}
+
+section.fdb_block .fdt_innner.main_vis_yasashisa h1{
+	text-align: center;
+	font-size: 2.0rem;
+	line-height: 3.5rem;
+	}
+
+section.fdb_block .fdt_innner.main_vis_yasashisa .column_1st{
+	width: calc(55% - 20px);
+	margin: 0;
+	}
+section.fdb_block .fdt_innner.main_vis_yasashisa .column_2nd{
+	position: absolute;
+	right: 0%;	
+	width: calc(45% - 0px);
+	}
+
+section.fdb_block .fdt_innner.main_vis_yasashisa div.tex p{
+	font-size: 1.3rem;
+	}
+
+
+/*全幅に拡げるパネル*/
+section.fdb_block .fdt_innner.panel_fullwidth{
+	padding: 0;
+	}
+section.fdb_block .fdt_innner.panel_fullwidth .fdt_ul_img li{
+	width: calc((100% - 20px) / 2);
+	}
+
+/*しゃぼんや用*/
+section.fdb_block.wrap_syabonya_page{
+
+	}
+section.fdb_block.wrap_syabonya_page > div{
+	padding: 0;
+	}
+section.fdb_block.wrap_syabonya_page h1{
+	font-size: 24px;
+	line-height: 35px;
+	color: #374871;
+	}
+section.fdb_block.wrap_syabonya_page .tex p{
+
+	color: #374871;
+	}
+
+section.fdb_block.wrap_syabonya_page .fdt_ul_text{
+	display: flex;
+	flex-wrap: wrap;
+	gap:10px;
+	}
+section.fdb_block.wrap_syabonya_page .fdt_ul_text > li{
+	width: calc((100% - 110px)/4);
+	margin: 0;
+	padding: 10px;
+	background: #b1c4cb;
+	border-radius: 20px;
+	}
+section.fdb_block.wrap_syabonya_page .fdt_ul_text li:before{
+	content: none;
+	}
+section.fdb_block.wrap_syabonya_page .fdt_ul_text > li strong,
+section.fdb_block.wrap_syabonya_page .fdt_ul_text > li p{
+	color: #fff;
+	}
+section.fdb_block.wrap_syabonya_page .fdt_ul_text > li p{
+	text-align: left;
+	}
+section.fdb_block.wrap_syabonya_page .fdt_ul_img {
+	width: 100%;
+	border-radius: 30px;
+	}
+
+/*バナーを2つ横並びにする*/
+
+section.fdb_block .fdt_innner.bnr_2column{
+	padding: 0;
+	}
+section.fdb_block .fdt_innner.bnr_2column .fdt_ul_text{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:center;
+   gap: 10px;
+   margin: 0 auto;
+   padding: 0;
+
+	}
+section.fdb_block .fdt_innner.bnr_2column .fdt_ul_text > li{
+	width: calc((100% - 10px)/2);
+	margin: 0;
+	text-align: center;
+   position: relative;
+	}
+section.fdb_block .fdt_innner.bnr_2column .fdt_ul_text li:before{
+	content: none;
+	}
+section.fdb_block .fdt_innner.bnr_2column .fdt_ul_text > li .fdt_ul_img{
+	width: 100%;
+	}
+section.fdb_block .fdt_innner.bnr_2column .fdt_ul_text > li strong{
+	position: absolute;
+	top: 23%;
+	text-align: center;
+	display: block;
+	width: 100%;
+	color: #fff;
+	font-size: 20px;
+	}
+
